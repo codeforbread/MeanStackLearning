@@ -19,7 +19,9 @@ node first.js
 Hello World
 
 
-##### #####
+##### To display all available npm packages #####
+
+npm list
 
 
 ##### #####

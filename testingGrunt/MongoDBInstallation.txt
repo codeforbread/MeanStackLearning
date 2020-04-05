@@ -1,0 +1,18 @@
+##### mongo_db_installation #####
+
+/MeanStackLearning$ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+OK
+
+/MeanProject/MeanStackLearning$ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse
+
+
+/MeanStackLearning$ sudo apt-get update
+
+/MeanStackLearning$ sudo apt-get install -y mongodb-org
+
+
+##### To check version of mongodb #####
+
+/MeanStackLearning$ mongod -version
+

@@ -1,0 +1,46 @@
+##### To install Bower globally #####
+
+sudo npm install -g bower
+
+
+##### To install Bower locally #####
+
+sudo npm install bower
+
+
+##### To install grunt cli globally #####
+
+create one folder sudo mkdir testingGrunt folder
+cd testingGrunt/
+sudo npm install -g grunt-cli
+
+
+##### To install grunt locally #####
+
+cd testingGrunt/
+sudo npm install grunt
+
+
+##### to check if grunt is working #####
+
+create file Gruntfile.js and export module grunt
+grunt
+
+Running "default" task
+Hello World
+
+
+##### To install yo ( Yeoman Doctor ) globally #####
+
+sudo npm install -g yo
+
+
+##### To install generators-meanjs globally #####
+
+sudo npm install -g generator-meanjs
+
+
+##### To check yo and meanjs working #####
+
+yo meanjs
+
