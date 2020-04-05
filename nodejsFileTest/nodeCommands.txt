@@ -1,0 +1,28 @@
+##### To check version of nodejs ######
+
+node -v
+
+
+##### issue node first.js #####
+
+
+internal/modules/cjs/loader.js:657
+    throw err;
+    ^ 
+
+Make sure terminal is in correct folder path
+
+
+##### To run first node js code  #####
+
+node first.js
+Hello World
+
+
+##### #####
+
+
+##### #####
+
+
+##### #####
