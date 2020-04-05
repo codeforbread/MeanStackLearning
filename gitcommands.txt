@@ -50,7 +50,24 @@ git commit -m "added gitcommands.txt file with all basic git commands"
 git push origin develop
 
 
-##### ######
+##### To prevent git from requiring sudo on every git command ######
+
+sudo chown -R sahil:sahil /var/www/html/MeanProject/MeanStackLearning/.git
+@@@@ chown = change owner -r = recursively for all files inside directory specified @@@@@
 
 
-##### ######
+##### Failed to save 'gitcommands.txt': Insufficient permissions. Select 'Retry as Sudo' to retry as superuser ######
+
+sudo chmod -R 777 /var/www/html/MeanProject/MeanStackLearning
+
+
+##### To view files with permissions #####
+
+ls -al
+-rw-r--r-- 1 sahil sahil 1080 Apr  5 15:23 gitcommands.txt
+
+
+##### #####
+
+
+##### #####
