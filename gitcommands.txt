@@ -1,0 +1,56 @@
+#####  To clone with repository  ##### 
+
+sudo git clone https://github.com/codeforbread/MeanStackLearning.git
+
+
+#####  To display info about email and username  ##### 
+
+git config --list
+
+
+#####  To set username for local repository  ##### 
+
+sudo git config user.name "username"
+
+
+#####  To set useremail for local repository  ##### 
+
+sudo git config user.email "useremail@gmail.com"
+
+
+#####  To create new txt file   ##### 
+
+sudo touch gitcommands.txt
+
+#####  To create new branch   ##### 
+
+sudo git checkout -b develop
+
+
+#####  if following issue shows unable to create git checkout develop #####
+
+fatal: Unable to create '/var/www/html/MeanProject/MeanStackLearning/.git/index.lock': Permission denied
+it requires sudo because it expects root permissions
+solution:-
+@@@@@ sudo git checkout develop @@@@@
+
+
+##### To add all changes to stagging #####
+
+sudo git add -A
+
+
+##### To Commit all changes #####
+
+git commit -m "added gitcommands.txt file with all basic git commands"
+
+
+##### To push changes to develop branch ######
+
+git push origin develop
+
+
+##### ######
+
+
+##### ######
